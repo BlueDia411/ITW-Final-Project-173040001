@@ -1,0 +1,269 @@
+body {
+    margin-top: 30px;
+    background-image: url(../Images/nathan-anderson-332199.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.WarnaPutih1 {
+    color: #555;
+}
+
+.WarnaPutih2 {
+    color: #f7eee6;
+}
+
+.WarnaPutih3 {
+    color: #a2abb2;
+}
+
+.marto {
+    margin-top: 100px;
+}
+
+.text-center {
+    letter-spacing: 2px;
+}
+
+
+.text-center img {
+    width: 400px;
+    border: 3px solid #eaeaea;
+    box-shadow: 0.7px 0.7px 10px gray;
+}
+
+.portfolio {
+    background-color: #2b2c2d;
+    margin-top: 200px;
+}
+
+.portfolio .thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.portfolio .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+section {
+    min-height: 800px;
+}
+
+section .contact {
+    height: 500px;
+}
+
+hr {
+    width: 250px;
+    border-top: 2px solid #999; 
+}
+
+.about {
+    background-color: #15191d;
+    margin-top: -20px;
+}
+
+.about .row {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.about .row.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.about img {
+    width: 400px;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 18.6px;
+    color: #a2abb2;
+}
+
+.facebook {
+    width: 100px;
+    height: 100px;
+    background-image: url(../Images/facebook-2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9998px;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.twitter {
+    width: 100px;
+    height: 100px;
+    background-image: url(../Images/5ca98c73b2bb7a02bf8350933c7ca443.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    margin-left: 40%;
+}
+ 
+li {
+    display: inline-block;
+    width: 11em; 
+}
+
+
+
+.link:link {
+    text-decoration: none;
+    color: #bc9e16;
+    font-weight: bold;
+}
+
+.link:visited {
+    color: #bc9e16;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #f4d442;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.margin {
+    margin-left: 320px;
+}
+
+/*Skill*/
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.skillss {
+  margin: auto;
+  width: 70%;
+  background-color: #eee;
+}
+
+.WarnaPutih2 p {
+    margin-left: 200px;
+}
+
+.myskill {
+    background-image: url(../Images/andre-benz-248744.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+.Photoshop {
+    width: 70%; 
+    background-color: #bc9e16;
+}
+
+.Music {
+    width: 80%; 
+    background-color:#bc9e16;
+}
+
+.Art {
+    width: 65%; 
+    background-color: #bc9e16;
+}
+
+.Gaming {
+    width: 80%; 
+    background-color: #bc9e16;
+}
+
+.contact {
+    background-color: #0a0c0e;
+}
+/*Ahkir Skill*/
+
+/*Navigasi*/
+
+.navigation {
+    width: 100%;
+    position: absolute;
+}
+
+.navigation ul, .navigation li {
+    text-align: center;
+}
+
+#navigation li a {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 8px 18px;
+    border: 2px solid #a69257;
+    font-weight: 500;
+    transition: all 0.2s;
+    letter-spacing: 2px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 80;
+  padding-top: 20px;
+  padding-bottom: 55px;
+  transition: background 0.6s;
+  background: rgba(0,0,0,0.8);
+
+}
+
+/*Contact*/
+.label-color {
+    background-color: #555555;
+    color: white;
+}
+
+.button-color {
+    background-color: #a69257;
+}
+/*Akhir Contact*/
+
+
+/*footer*/
+.footer {
+    background: url(../Images/footer.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    color: #bc9e16;
+    text-align: center;
+}
+
+.Copyright:link {
+    text-decoration: none;
+    color: #bc9e16;
+}
+
+.Copyright:visited {
+    color: #bc9e16;
+    text-decoration: none;
+}
+
+.Copyright:hover {
+    color: #f4d442;
+    text-decoration: none;
+}
+
+.Copyright:active {
+    color: #bc9e16;
+    text-decoration: none;
+}
+/*Akhir Footer*/
